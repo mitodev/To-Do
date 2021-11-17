@@ -3,7 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/mito/Resources/android/to_do_v2/app/src/main/res/drawable/custom_input.xml" value="0.19427083333333334" />
+        <entry key="..\:/mito/Resources/android/to_do_v2/app/src/main/res/drawable/ic_add.xml" value="0.19427083333333334" />
+        <entry key="..\:/mito/Resources/android/to_do_v2/app/src/main/res/drawable/item_background.xml" value="0.19427083333333334" />
         <entry key="..\:/mito/Resources/android/to_do_v2/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/mito/Resources/android/to_do_v2/app/src/main/res/layout/fragment_add.xml" value="0.4466666666666667" />
+        <entry key="..\:/mito/Resources/android/to_do_v2/app/src/main/res/layout/fragment_list.xml" value="0.22" />
+        <entry key="..\:/mito/Resources/android/to_do_v2/app/src/main/res/layout/fragment_update.xml" value="0.178125" />
+        <entry key="..\:/mito/Resources/android/to_do_v2/app/src/main/res/layout/place_holder.xml" value="0.42531120331950206" />
+        <entry key="..\:/mito/Resources/android/to_do_v2/app/src/main/res/layout/switch_item.xml" value="2.6666666666666665" />
+        <entry key="..\:/mito/Resources/android/to_do_v2/app/src/main/res/menu/add_menu.xml" value="0.178125" />
+        <entry key="..\:/mito/Resources/android/to_do_v2/app/src/main/res/menu/list_menu.xml" value="0.3333333333333333" />
+        <entry key="..\:/mito/Resources/android/to_do_v2/app/src/main/res/menu/update_menu.xml" value="0.178125" />
       </map>
     </option>
   </component>
