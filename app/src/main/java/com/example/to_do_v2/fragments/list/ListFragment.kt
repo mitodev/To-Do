@@ -1,7 +1,11 @@
 package com.example.to_do_v2.fragments.list
 
+import android.content.res.ColorStateList
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.*
+import android.view.View.INVISIBLE
+import android.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.LifecycleOwner
@@ -65,8 +69,8 @@ class ListFragment : Fragment() {
             binding.nodataTextView.visibility = View.VISIBLE
             binding.nodataImageView.visibility = View.VISIBLE
     } else {
-            binding.nodataTextView.visibility = View.INVISIBLE
-            binding.nodataImageView.visibility = View.INVISIBLE }
+            binding.nodataTextView.visibility = INVISIBLE
+            binding.nodataImageView.visibility = INVISIBLE }
 
     }
 

@@ -23,6 +23,8 @@ class ToDoViewModel(application: Application): AndroidViewModel(application) {
     // ! ..................the Dao functions
     val getAllData: LiveData<List<ToDoData>> = repository.getAllData
 
+    fun getSearched(search: String): LiveData<List<ToDoData>> = repository.getSearched(search)
+
     fun insertData(toDoData: ToDoData){
         viewModelScope.launch(Dispatchers.IO){
         repository.insertData(toDoData)

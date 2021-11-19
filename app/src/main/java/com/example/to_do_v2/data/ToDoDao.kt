@@ -10,6 +10,9 @@ interface ToDoDao {
     @Query("SELECT * FROM todo_table ORDER BY id ASC")
     fun getAllData(): LiveData<List<ToDoData>>
 
+    @Query("SELECT * FROM todo_table WHERE title LIKE :search ")
+    fun getSearched(search: String): LiveData<List<ToDoData>>
+
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insertData(toDoData: ToDoData)
 

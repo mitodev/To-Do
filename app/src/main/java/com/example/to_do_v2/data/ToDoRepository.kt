@@ -7,6 +7,8 @@ class ToDoRepository(private val toDoDao: ToDoDao) {
 
     val getAllData: LiveData<List<ToDoData>> = toDoDao.getAllData()
 
+    fun getSearched(search: String): LiveData<List<ToDoData>> = toDoDao.getSearched(search)
+
     suspend fun insertData(toDoData: ToDoData){
         toDoDao.insertData(toDoData)
     }
